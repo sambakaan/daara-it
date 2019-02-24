@@ -14,7 +14,7 @@ class Home extends Component {
 				</div>
 				<div className="featured commission-section ">
 				<h1 className="section-title mb-3">Nos commissions</h1>
-					<p className="section-desc" />
+					<p className="section-desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, cum! </p>
 					<div className="box">
 						<div className="container">
 							<div className="row">
@@ -33,7 +33,7 @@ class Home extends Component {
 											</span>
 										</div>
 
-										<a href="#" className="btn btn-outline-primary">Voir Plus</a>
+										<a href="#" className="dit-button">Voir Plus</a>
 									</div>
 								</div>
 
@@ -52,7 +52,7 @@ class Home extends Component {
 											</span>
 										</div>
 
-										<a href="#" className="btn btn-outline-primary">Voir Plus</a>
+										<a href="#" className="dit-button">Voir Plus</a>
 									</div>
 								</div>
 
@@ -71,7 +71,7 @@ class Home extends Component {
 											</span>
 										</div>
 
-										<a href="#" className="btn btn-outline-primary">Voir Plus</a>
+										<a href="#" className="dit-button">Voir Plus</a>
 									</div>
 								</div>
 
@@ -90,7 +90,7 @@ class Home extends Component {
 											</span>
 										</div>
 
-										<a href="#" className="btn btn-outline-primary">Voir Plus</a>
+										<a href="#" className="dit-button">Voir Plus</a>
 									</div>
 								</div>
 
@@ -109,7 +109,7 @@ class Home extends Component {
 											</span>
 										</div>
 
-										<a href="#" className="btn btn-outline-primary">Voir Plus</a>
+										<a href="#" className="dit-button">Voir Plus</a>
 									</div>
 								</div>
 
@@ -128,7 +128,7 @@ class Home extends Component {
 											</span>
 										</div>
 
-										<a href="#" className="btn btn-outline-primary">Voir Plus</a>
+										<a href="#" className="dit-button">Voir Plus</a>
 									</div>
 								</div>
 							</div>

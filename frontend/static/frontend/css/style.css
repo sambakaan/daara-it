@@ -4,7 +4,7 @@ body {
 }
 
 .featured {
-  padding: 40px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -118,7 +118,7 @@ a {
 } */
 
 .commission-section a {
-  color: #0062cc;
+  color: #ffffff;
 }
 
 /* .commission-section .box {
@@ -420,6 +420,7 @@ a {
 .section-title {
   text-align: center;
   color: #4c505f;
+  font-size: 25px;
 }
 
 a {
@@ -444,14 +445,27 @@ a:hover {
 
 /* button */
 .dit-button {
-  background: #141E30;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #243B55, #141E30);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #0057ff;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  box-sizing: border-box;
   color: #fff;
-  border: 3px solid #eee;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.25;
+  padding: 6px 15px 7px;
+  text-shadow: none;
+  transition-duration: 300ms;
+  transition-property: background, color, border;
+  transition-timing-function: linear;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: top;
 }
 
 .head-border-center:after {
