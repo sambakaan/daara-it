@@ -125,3 +125,9 @@ STATIC_URL = '/static/'
 
 # Custom user
 AUTH_USER_MODEL = 'accounts.User'
+
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
