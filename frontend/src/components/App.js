@@ -31,7 +31,7 @@ class App extends Component {
 								<Route exact path="/gallery" component={Gallery} />
 								<Route exact path="/discovery" component={Discovery} />
 								<Route exact path="/contact" component={Contact} />
-								<Route exact path="/forum" component={Forum} />
+							
 							</Switch>
 						</div>
 					</div>

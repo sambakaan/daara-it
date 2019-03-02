@@ -20,7 +20,7 @@ class Header extends Component {
 						</button>
 						<div className="collapse navbar-collapse" id="navbarTogglerDemo01">
 							<Link className="navbar-brand" to="/">
-								Daara-IT
+							<img src="../../../static/frontend/img/logo/logo_dit.png" width="40" height="40" alt="" />
 							</Link>
 							<ul className="navbar-nav ml-auto">
 								<li className="nav-item">
@@ -44,9 +44,9 @@ class Header extends Component {
 									</Link>
 								</li>
 								<li className="nav-item">
-									<Link className="nav-link" to="/forum">
+									<a className="nav-link" target="_blank" href="https://daarait.freeflarum.com/">
 										Forum
-									</Link>
+									</a>
 								</li>
 							</ul>
 						</div>
