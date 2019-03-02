@@ -14,14 +14,13 @@ class Home extends Component {
 				</div>
 				<div className="featured commission-section ">
 				<h1 className="section-title mb-3">Nos commissions</h1>
-					<p className="section-desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, cum! </p>
+					<p className="section-desc"> Les hommes naissent égaux mais les meilleurs deviennent informaticiens! </p>
 					<div className="box">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 									<div className="box-part text-center">
-										<i className="fa fa-instagram fa-3x" aria-hidden="true" />
-
+									<img src="../../../static/frontend/img/logo/net_logo.png" width="80" height="80" alt="" />
 										<div className="title">
 											<h4>La commission réseau</h4>
 										</div>
@@ -39,8 +38,7 @@ class Home extends Component {
 
 								<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 									<div className="box-part text-center">
-										<i className="fa fa-twitter fa-3x" aria-hidden="true" />
-
+										<img src="../../../static/frontend/img/logo/pro_logo.png" width="80" height="80" alt="" />
 										<div className="title">
 											<h4>La commission programmation</h4>
 										</div>
@@ -58,7 +56,7 @@ class Home extends Component {
 
 								<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 									<div className="box-part text-center">
-										<i className="fa fa-facebook fa-3x" aria-hidden="true" />
+									<img src="../../../static/frontend/img/logo/pentest_logo.png" width="80" height="80" alt="" />
 
 										<div className="title">
 											<h4>La commission pentest </h4>
@@ -77,7 +75,7 @@ class Home extends Component {
 
 								<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 									<div className="box-part text-center">
-										<i className="fa fa-pinterest-p fa-3x" aria-hidden="true" />
+									<img src="../../../static/frontend/img/logo/desk_logo.png" width="80" height="80" alt="" />
 
 										<div className="title">
 											<h4>La commission juridique </h4>
@@ -96,7 +94,7 @@ class Home extends Component {
 
 								<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 									<div className="box-part text-center">
-										<i className="fa fa-google-plus fa-3x" aria-hidden="true" />
+									<img src="../../../static/frontend/img/logo/org_logo.png" width="80" height="80" alt="" />
 
 										<div className="title">
 											<h4>La commission organisation </h4>
@@ -115,10 +113,10 @@ class Home extends Component {
 
 								<div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 									<div className="box-part text-center">
-										<i className="fa fa-github fa-3x" aria-hidden="true" />
+									<img src="../../../static/frontend/img/logo/en_logo.png" width="80" height="80" alt="" />
 
 										<div className="title">
-											<h4>La commission marketing&communication </h4>
+											<h4>La commission anglaise </h4>
 										</div>
 
 										<div className="text">
