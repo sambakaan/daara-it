@@ -39,11 +39,42 @@ $(document).ready(function () {
   });
 
   // gallery
-  $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  $(document).on("click", '[data-toggle="lightbox"]', function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
   });
 
-  
+
+  wow = new WOW({
+    animateClass: 'animated',
+    offset: 100,
+    callback: function (box) {
+      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+  });
+  wow.init();
+  document.getElementById('moar').onclick = function () {
+    var section = document.createElement('section');
+    section.className = 'section--purple wow fadeInDown';
+    this.parentNode.insertBefore(section, this);
+  };
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+      $('#back-to-top').fadeIn();
+    } else {
+      $('#back-to-top').fadeOut();
+    }
+  });
+  // scroll body to 0px on click
+  $('#back-to-top').click(function () {
+    $('#back-to-top').tooltip('hide');
+    $('body,html').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
+
+  $('#back-to-top').tooltip('show');
 
 });
