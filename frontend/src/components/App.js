@@ -17,13 +17,9 @@ class App extends Component {
 		return (
 			<Router>
 				<React.Fragment>
-					<div id="header">
-						<div className="dark-overlay">
-							<Header />
-							<Banner />
-						</div>
-					</div>
+				
 					<div className="container">
+					<Header/>
 						<div className="dit-container">
 							<Switch>
 								<Route exact path="/" component={Home} />

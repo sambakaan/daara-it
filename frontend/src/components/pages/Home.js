@@ -1,15 +1,17 @@
 import React, { Component, Fragment } from 'react';
 import Partner from './Partner';
-
+import Banner from './Banner'
 class Home extends Component {
 	render() {
 		return (
 			<Fragment>
+			
+							<Banner />
+						
 				<div className="featured about-section text-shadow">
 					<h2 className="section-title">Daara-IT</h2>
 					<p className="section-desc">
-						D-IT de son vrai nom « DAARA IT » est une forte communauté sénégalaise regroupant de jeunes IT
-						passionné(e)s par les technologies....
+					L'informatique plus qu'une passion, un mode de vie.
 					</p>
 				</div>
 				<div className="featured commission-section ">
@@ -133,114 +135,10 @@ class Home extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="featured gallery-section">
-					<h2 className="section-title">Les geeks en action</h2>
-					<p className="section-desc">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, voluptatem.
-					</p>
-
-					<div className="container">
-						<div className="row gallery">
-							<div className="col-md-12">
-								<div id="galleryCarousel" className="carousel slide" data-ride="carousel">
-									<ol className="carousel-indicators">
-										<li data-target="#galleryCarousel" data-slide-to="0" className="active" />
-										<li data-target="#galleryCarousel" data-slide-to="1" />
-									</ol>
-
-									<div className="carousel-inner">
-										<div className="carousel-item active">
-											<div className="row">
-												<div className="col-md-3">
-													<a
-														data-lightbox="roadtrip"
-														data-title="My caption"
-														href="https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-													>
-														<img
-															className="img-fluid"
-															src="https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-															alt="Image"
-														/>
-													</a>
-												</div>
-												<div className="col-md-3">
-													<a href="#">
-														<img
-															className="img-fluid"
-															src="http://placehold.it/250x250"
-															alt="Image"
-														/>
-													</a>
-												</div>
-												<div className="col-md-3">
-													<a href="#">
-														<img
-															className="img-fluid"
-															src="http://placehold.it/250x250"
-															alt="Image"
-														/>
-													</a>
-												</div>
-												<div className="col-md-3">
-													<a href="#">
-														<img
-															className="img-fluid"
-															src="http://placehold.it/250x250"
-															alt="Image"
-														/>
-													</a>
-												</div>
-											</div>
-										</div>
-
-										<div className="carousel-item">
-											<div className="row">
-												<div className="col-md-3">
-													<a href="#">
-														<img
-															className="img-fluid"
-															src="http://placehold.it/250x250"
-															alt="Image"
-														/>
-													</a>
-												</div>
-												<div className="col-md-3">
-													<a href="#">
-														<img
-															className="img-fluid"
-															src="http://placehold.it/250x250"
-															alt="Image"
-														/>
-													</a>
-												</div>
-												<div className="col-md-3">
-													<a href="#">
-														<img
-															className="img-fluid"
-															src="http://placehold.it/250x250"
-															alt="Image"
-														/>
-													</a>
-												</div>
-												<div className="col-md-3">
-													<a href="#">
-														<img
-															className="img-fluid"
-															src="http://placehold.it/250x250"
-															alt="Image"
-														/>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 				<Partner />
+				
+	   
 			</Fragment>
 		);
 	}

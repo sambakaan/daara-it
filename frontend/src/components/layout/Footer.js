@@ -145,6 +145,7 @@ export default class Footer extends Component {
 						</div>
 					</div>
 				</section>
+			
 			</Fragment>
 		);
 	}

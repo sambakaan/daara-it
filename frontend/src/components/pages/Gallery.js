@@ -7,20 +7,20 @@ class Gallery extends Component {
 				<div className="container">
 					<div className="row row-gallery">
 						<a
-							href="https://unsplash.it/1200/768.jpg?image=251"
+							href="../../../static/frontend/img/dit/ism/img.jpg"
 							data-toggle="lightbox"
 							data-gallery="gallery"
 							className="col-md-4"
 						>
-							<img src="https://unsplash.it/600.jpg?image=251" className="img-fluid rounded" />
+							<img src="../../../static/frontend/img/dit/ism/img.jpg" className="img-fluid rounded" />
 						</a>
 						<a
-							href="https://unsplash.it/1200/768.jpg?image=252"
+							href="../../../static/frontend/img/dit/iam/img-1.jpg"
 							data-toggle="lightbox"
 							data-gallery="gallery"
 							className="col-md-4"
 						>
-							<img src="https://unsplash.it/600.jpg?image=252" className="img-fluid rounded" />
+							<img src="../../../static/frontend/img/dit/iam/img-1.jpg" className="img-fluid rounded" />
 						</a>
 						<a
 							href="https://unsplash.it/1200/768.jpg?image=253"
