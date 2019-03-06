@@ -18,7 +18,7 @@ class App extends Component {
 			<Router>
 				<React.Fragment>
 				
-					<div className="container">
+					<div className="container-fluid">
 					<Header/>
 						<div className="dit-container">
 							<Switch>
