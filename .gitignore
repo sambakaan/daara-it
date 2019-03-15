@@ -128,4 +128,4 @@ dmypy.json
 
 
 # ignore live-static
-#  live-static
+live-static
