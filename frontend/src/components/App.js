@@ -2,23 +2,31 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
-import Header from './layout/Header';
-import Banner from './pages/Banner';
-import Home from './pages/Home';
-import About from './pages/About';
-import Discovery from './pages/Dicovery';
-import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
-import Forum from './forum/Forum';
-import Footer from './layout/Footer';
+// import Header from './layout/Header';
+// import Banner from './pages/Banner';
+// import Home from './pages/Home';
+// import About from './pages/About';
+// import Discovery from './pages/Dicovery';
+// import Gallery from './pages/Gallery';
+// import Contact from './pages/Contact';
+// import Forum from './forum/Forum';
+// import Footer from './layout/Footer';
 
 class App extends Component {
 	render() {
 		return (
 			<Router>
 				<React.Fragment>
-				
 					<div className="container-fluid">
+						<div className="jumbotron jumbotron-fluid text-center">
+							<div className="container">
+								<h1 className="display-4">Daara-IT</h1>
+								<p className="lead">L'informatique plus qu'une passion, un mode de vie.</p>
+							</div>
+						</div>
+					</div>
+
+					{/* <div className="container-fluid">
 					<Header/>
 						<div className="dit-container">
 							<Switch>
@@ -31,7 +39,7 @@ class App extends Component {
 							</Switch>
 						</div>
 					</div>
-					<Footer />
+					<Footer /> */}
 				</React.Fragment>
 			</Router>
 		);
