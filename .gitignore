@@ -127,4 +127,5 @@ dmypy.json
 .pyre/
 
 
-
+# ignore live-static
+#  live-static

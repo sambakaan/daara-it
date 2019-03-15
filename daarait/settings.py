@@ -26,18 +26,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # lib
+    # librairie
     'rest_framework',
 
     # custome app
     'accounts',
     'blog',
-    'commission',
     'contact',
     'frontend',
-    'gallery',
-    'partner',
-    'teacher',
 
 
 

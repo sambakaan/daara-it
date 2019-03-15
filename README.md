@@ -1,29 +1,22 @@
 # daara-it
-> D-IT de son vrai nom « DAARA IT » est une forte communauté sénégalaise regroupant de  jeunes IT passionné (e)s par les technologies
+> D-IT L'informatique plus qu'une passion, un mode de vie
   
 ### Version
 
 python => v3.6 ou soupérieure
 
-  
 
 django => v2.1
 
-  
 
 node => v10.13.0
 
-  
 
 npm => v6.5.0
 
-  
-  
 
 ## Utilisation
 
-  
-  
 
 ### Installation des prérequis
 
